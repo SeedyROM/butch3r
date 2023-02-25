@@ -36,6 +36,7 @@ export const useEditorImageDrop = () => {
       file,
       dimensions,
       data,
+      originalData: data,
     });
   };
   return onDrop;

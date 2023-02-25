@@ -9,4 +9,5 @@ export interface EditorImage {
     height: number;
   };
   data: ArrayBuffer;
+  originalData: ArrayBuffer;
 }
